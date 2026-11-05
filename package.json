@@ -1,0 +1,21 @@
+{
+  "description": "6net lite \u2014 search, games, apps, 6ixtube. no ai, no accounts.",
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "main": "server.js",
+  "name": "6net-lite",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "version": "1.0.0",
+  "dependencies": {
+    "@mercuryworkshop/bare-mux": "^2.1.9",
+    "@mercuryworkshop/epoxy-transport": "^2.1.28",
+    "@mercuryworkshop/wisp-js": "^0.5.1",
+    "@titaniumnetwork-dev/ultraviolet": "^3.2.10",
+    "undici": "^8.12.3",
+    "wisp-server-node": "^1.1.7"
+  }
+}
